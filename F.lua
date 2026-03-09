@@ -10,7 +10,7 @@ local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-S
 -- Создание окна (ключ 1234, как в примере)
 local Window = Luna:CreateWindow({
     Name = "Hide & Seek Premium",
-    Subtitle = "by @FindNulla0.2",
+    Subtitle = "by Kustlly",
     LogoID = "82795327169782",
     LoadingEnabled = true,
     LoadingTitle = "Hide & Seek Hub",
@@ -22,9 +22,9 @@ local Window = Luna:CreateWindow({
     KeySettings = {
         Title = "Hub Key",
         Subtitle = "Enter key",
-        Note = "Key is 1234",
+        Note = "Key is 14789234",
         SaveKey = true,
-        Key = {"1234"},
+        Key = {"14789234"},
         SecondAction = {
             Enabled = false
         }
@@ -34,7 +34,7 @@ local Window = Luna:CreateWindow({
 -- Домашняя вкладка (информация)
 Window:CreateHomeTab({
     SupportedExecutors = {
-        "Synapse X", "Krnl", "Fluxus", "Delta", "Arceus X", "Script-Ware"
+        "Synapse X", "Krnl", "Fluxus", "Delta", "Arceus X", "Script-Ware", "Xeno"
     },
     DiscordInvite = "n/a",
     Icon = 1
@@ -303,7 +303,7 @@ Tab:CreateToggle({
 
 -- TeleKill Button
 Tab:CreateButton({
-    Name = "TeleKill (IT)",
+    Name = "TeleKill (Только IT)",
     Callback = teleKill
 })
 
@@ -358,7 +358,7 @@ Tab:CreateSection("Дополнительно")
 -- Можно добавить кнопку перезагрузки персонажа или информацию
 Tab:CreateParagraph({
     Title = "Информация",
-    Text = "ESP обновляется автоматически.\nAnti-Fling защищает от сброса."
+    Text = "ESP обновляется автоматически.\nAnti-Fling защищает от сброса читеров."
 })
 
 print("Hide & Seek Premium Hub (Luna Edition) loaded!")
